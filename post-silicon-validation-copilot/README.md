@@ -3,6 +3,10 @@
 > Turn a validation plan + bench logs into a gate-review readout: coverage,
 > risk call, and a prioritized, ownable action list.
 
+<p align="center">
+  <img src="assets/architecture.png" alt="The Trustworthy AI Architecture: deterministic Python core, trust boundary, and LLM judgment layer with human-in-the-loop sign-off" width="900">
+</p>
+
 When you're bringing a mixed-signal part to production, the hard question before
 every phase gate is simple to ask and painful to answer: **are we actually
 covered, and what's still at risk?** The data is usually scattered across a test
