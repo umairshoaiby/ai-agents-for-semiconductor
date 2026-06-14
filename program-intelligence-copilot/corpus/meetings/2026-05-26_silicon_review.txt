@@ -1,0 +1,19 @@
+Silicon Review — 2026-05-26
+Attendees: A. Patel (Silicon BU), M. Chen (Validation), R. Diaz (Supply/Ops)
+
+A. Patel: A1 debug is wrapping up. A2 tape-out is back; samples expected in the lab the week
+of June 8. Power-up sequencing on A1 looks clean. For EVT we will need the ATE production test
+program ready — that's the long-lead item on the silicon side. I'll start the load-board order
+this week; vendor quotes are running 3-4 weeks.
+
+M. Chen: Validation plan is locked. Power, clocking, and interface suites are passing on A1.
+No audio concerns at this point — codec characterization starts on A2.
+
+R. Diaz: Supply is healthy. Substrate is on order. One watch item is a crystal with a long
+lead time; I'm getting quotes.
+
+A. Patel: EVT build is on track for end of June. The risk to watch is ATE readiness — if the
+load board slips, EVT slips. Action for me: place the ATE load-board order and get a committed
+delivery date.
+
+Decision: proceed with A2 bring-up plan as scheduled; ATE program is the item to protect.

@@ -1,0 +1,21 @@
+Program Staff — 2026-06-02
+Attendees: PM, A. Patel, M. Chen, J. Lee, R. Diaz
+
+PM: EVT readiness check. Anil, silicon?
+
+A. Patel: A2 samples land next week. ATE load board is ordered — committed delivery is now
+quoted at June 22, which is tight for an end-of-June EVT. I'd call EVT amber on that alone.
+
+M. Chen: Early bring-up boards arrived for audio pre-checks. First channel-B THD reading is
+marginal — around 0.010% versus the 0.008% target. It's one board, not characterized yet, but
+flagging it now. Channel A looks fine.
+
+J. Lee: Firmware driver stack is stable. No issues.
+
+R. Diaz: Substrate on track. The long-lead crystal is the watch item, quoted at 16 weeks.
+
+PM: So EVT moves to amber: ATE delivery is tight and there's an early audio signal on channel
+B. Decision: keep EVT target end of June for now but treat ATE delivery and channel-B audio as
+the two risks to track weekly. Mark, get channel-B THD properly characterized on A2.
+
+Decision: EVT status amber; weekly tracking on ATE readiness and channel-B audio.

@@ -1,0 +1,4 @@
+milestone,workstream,baseline_date,forecast_date,status
+EVT Build,Silicon,2026-06-30,2026-07-15,at_risk
+Validation Gate,Validation,2026-07-10,2026-07-24,slipping
+Substrate Delivery,Supply,2026-07-01,2026-07-01,on_track

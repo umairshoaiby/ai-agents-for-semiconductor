@@ -1,0 +1,10 @@
+{
+  "name": "mixed_amber",
+  "note": "One workstream amber on a within-threshold slip; an unassigned action lowers confidence to medium.",
+  "expected_overall_rag": "amber",
+  "expected_confidence": "medium",
+  "expected_workstream_rag": {"Core": "amber", "Edge": "green", "Net": "green"},
+  "expected_hygiene_substrings": ["no owner"],
+  "expected_action_recall": ["integration plan"],
+  "expected_hot_topic_top": null
+}

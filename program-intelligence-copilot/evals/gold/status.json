@@ -1,0 +1,11 @@
+{
+  "note": "Deterministic status the agent graph must reproduce for the sample corpus (anchor ROLLUP/PIC_TODAY=2026-06-14).",
+  "expected_overall_rag": "red",
+  "expected_confidence": "high",
+  "expected_workstream_rag": {
+    "Silicon Bring-Up": "red",
+    "Firmware": "green",
+    "Validation": "red",
+    "Supply/Ops": "amber"
+  }
+}

@@ -1,0 +1,4 @@
+workstream,owner,status_note,percent_complete,blockers,last_updated
+Alpha,O. One,Bring-up complete; characterization underway,80,,2026-06-12
+Beta,O. Two,Firmware stable; on track for alpha,75,,2026-06-13
+Gamma,O. Three,Validation suites passing,72,,2026-06-12

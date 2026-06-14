@@ -1,0 +1,13 @@
+Program Sync — 2026-06-12
+Attendees: C. Lead (Core), E. Lead (Edge), N. Lead (Net)
+
+C. Lead: Core integration is progressing but the Integration Done milestone is tightening —
+forecast has moved about a week to the 8th. Still recoverable, not red yet. I'll update the
+integration plan to show the recovery.
+
+E. Lead: Edge is stable and on track. One housekeeping item — we still need to triage the
+open defect tickets, no owner assigned yet.
+
+N. Lead: Net is making good progress on the stack, on track.
+
+PM: Net-net, amber on Core, the rest green. Watch the Core date.

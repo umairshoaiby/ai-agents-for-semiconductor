@@ -1,0 +1,4 @@
+milestone,workstream,baseline_date,forecast_date,status
+Integration Done,Core,2026-07-01,2026-07-08,at_risk
+Edge Ready,Edge,2026-07-05,2026-07-05,on_track
+Net Ready,Net,2026-07-10,2026-07-10,on_track

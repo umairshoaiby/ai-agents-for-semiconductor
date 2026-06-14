@@ -1,0 +1,17 @@
+Silicon Bring-Up Debug Review — 2026-06-09
+Attendees: A. Patel (Silicon BU), M. Chen (Validation), J. Lee (Firmware)
+
+A. Patel: A2 samples are in the lab. Power-up sequencing is clean on five units — the
+metastability we saw on A1 is gone. Good progress on the die. The blocker is the ATE program:
+the load board slipped again, now quoted late June, so the production test program is not ready.
+Until it is, we can't run volume screening for EVT.
+
+J. Lee: Firmware driver stack is stable on A2, no surprises. Power tuning is next.
+
+M. Chen: Audio THD on channel B is still failing — 0.012% versus 0.008% target. VP-003 root
+cause is not done yet; it's looking like a board-level coupling path.
+
+A. Patel: So the two things that scare me for EVT are the ATE program readiness and the audio
+THD issue. Action for me: chase the load-board vendor and give a firm ATE readiness date.
+
+Decision: keep A2 debug running in parallel rather than idle the lab waiting on ATE.

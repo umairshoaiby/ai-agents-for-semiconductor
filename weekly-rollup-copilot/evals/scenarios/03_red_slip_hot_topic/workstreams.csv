@@ -1,0 +1,4 @@
+workstream,owner,status_note,percent_complete,blockers,last_updated
+Silicon,S. Lead,A2 debug ongoing; ATE not ready,55,ATE production program not ready,2026-06-12
+Validation,V. Lead,Audio THD failing on channel B,40,VP-003 root cause open,2026-06-11
+Supply,U. Lead,Tracking long-lead parts,80,,2026-06-03

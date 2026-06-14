@@ -1,0 +1,8 @@
+id,action,owner,due,state,raised_date,workstream
+ACT-24,Stand up the ATE production test program for EVT,A. Patel,2026-06-20,blocked,2026-05-26,Silicon Bring-Up
+ACT-25,Place the ATE load-board order and get a committed date,A. Patel,2026-06-05,done,2026-05-26,Silicon Bring-Up
+ACT-21,Root-cause channel-B audio THD (VP-003),M. Chen,2026-06-12,in_progress,2026-06-04,Validation
+ACT-27,Refresh the gate coverage matrix,,2026-06-15,in_progress,2026-06-04,Validation
+ACT-31,Set up channel-B coupling bench experiment,S. Rao,2026-06-12,in_progress,2026-06-11,Validation
+ACT-26,Finalize firmware power-tuning plan,J. Lee,2026-06-18,in_progress,2026-06-06,Firmware
+ACT-33,Get a second-source quote for the long-lead crystal,R. Diaz,2026-06-16,in_progress,2026-06-12,Supply/Ops

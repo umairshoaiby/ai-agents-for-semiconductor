@@ -1,0 +1,9 @@
+issue_key,component,summary,status,test_result,priority,updated
+VP-003,Validation,Channel-B audio THD+N out of spec (0.012% vs 0.008%),In Progress,Fail,Highest,2026-06-11
+VAL-210,Validation,Power suite regression on A2,Done,Pass,High,2026-06-09
+VAL-211,Validation,Clocking PLL lock time on A2,Done,Pass,High,2026-06-09
+VAL-212,Validation,Refresh gate coverage matrix,To Do,,Medium,2026-06-11
+ATE-101,Silicon Bring-Up,Stand up ATE production test program,Blocked,,Highest,2026-06-12
+ATE-102,Silicon Bring-Up,Qualify ATE load board,Blocked,,High,2026-06-10
+FW-330,Firmware,Driver stack bring-up on A2,Done,Pass,Medium,2026-06-09
+SUP-140,Supply/Ops,Second-source the long-lead crystal,In Progress,,High,2026-06-12

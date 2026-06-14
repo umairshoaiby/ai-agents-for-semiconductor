@@ -1,0 +1,19 @@
+Validation Sync — 2026-06-11
+Attendees: M. Chen (Validation), A. Patel (Silicon BU), S. Rao (Test Eng)
+
+M. Chen: Power, clocking, and interface are all passing on A2 — solid. The red is still audio:
+channel-B THD+N out of spec at 0.012%. Three weeks in a row now that audio is the open item.
+
+S. Rao: If it's confirmed board coupling, we may be able to waive it for EVT and fix it on the
+next spin — but we need the root cause documented before anyone signs a waiver.
+
+M. Chen: Agreed. VP-003 root cause is the priority. I'm behind — it was due the 12th and I
+won't make it; realistically another week. I also still owe the refreshed coverage matrix.
+
+A. Patel: ATE program is still my blocker on the silicon side, no change since Tuesday.
+
+S. Rao: New item — I'll set up a focused channel-B coupling bench experiment this week to
+isolate the path. Owner me, target Friday.
+
+Decision: audio THD on channel B is the gating risk for the validation gate; everything else
+is on track for the gate date.

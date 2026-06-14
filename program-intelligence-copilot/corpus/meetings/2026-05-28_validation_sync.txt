@@ -1,0 +1,16 @@
+Validation Sync — 2026-05-28
+Attendees: M. Chen (Validation), S. Rao (Test Eng)
+
+M. Chen: Status on A1 — power suite passing, clocking passing, interface (I2C/SPI) passing.
+We're in good shape on the digital and power side. The audio codec characterization can't
+really start until A2 because of the analog changes in this spin.
+
+S. Rao: I've prepped the audio test benches: THD+N, PSRR, and channel-matching sweeps. Target
+for THD+N is 0.008% at 1kHz full-scale per the codec spec. Benches are calibrated and ready
+for A2.
+
+M. Chen: Good. So for now validation is green. The thing I'm watching is that audio is
+untested until A2 lands — it's the one area with no data yet.
+
+Decision: hold audio characterization for A2 samples; keep the rest of the suites running
+regression on A1.

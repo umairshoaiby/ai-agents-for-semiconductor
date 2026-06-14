@@ -1,0 +1,10 @@
+# Pure-Python / numpy stack — deliberately NO chromadb, torch, or onnxruntime.
+# This repo runs on Windows ARM64, where those have no wheels (same constraint that
+# made v1 use Flask over Streamlit). Semantic embeddings are provided by Voyage AI
+# over HTTP (no native deps); local mode falls back to lexical BM25 and needs no key.
+anthropic>=0.69
+python-dotenv>=1.0
+flask>=3.0
+numpy>=1.26
+rank-bm25>=0.2.2
+voyageai>=0.3        # optional: only used when EMBED_PROVIDER=voyage

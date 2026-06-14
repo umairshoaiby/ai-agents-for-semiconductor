@@ -1,0 +1,23 @@
+Silicon Bring-Up Debug Review — 2026-06-09
+Attendees: A. Patel (Silicon BU), M. Chen (Validation), J. Lee (Firmware)
+
+A. Patel: A2 samples are in the lab. Power-up sequencing looks clean on five units, that's
+a good result — the metastability we saw on A1 is gone. The blocker is the ATE program: the
+production test program still isn't ready, and until it is we can't run volume screening for
+EVT. I own standing it up but I'm waiting on the load board from the vendor.
+
+J. Lee: Firmware-side, the driver stack is stable on A2. No surprises bringing it up. Power
+tuning is the next thing I'll pick up.
+
+M. Chen: Heads up that audio THD on channel B is still failing — 0.012% versus the 0.008%
+target. We think it's a layout coupling issue but it's not root-caused yet. It's going to be
+the long pole for the validation gate.
+
+A. Patel: Agreed, the ATE program and the audio THD issue are the two things that scare me
+for EVT. Action for me: chase the load board vendor and give a firm ATE readiness date by
+Friday. Mark, can you pull the channel-B failure data into the next validation sync?
+
+M. Chen: Yes, I'll bring the channel-B THD data to the validation sync.
+
+Decision: we'll keep A2 debug going in parallel rather than waiting on ATE — no reason to
+idle the lab.

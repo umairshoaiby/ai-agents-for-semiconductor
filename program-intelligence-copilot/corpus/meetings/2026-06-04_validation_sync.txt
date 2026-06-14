@@ -1,0 +1,18 @@
+Validation Sync — 2026-06-04
+Attendees: M. Chen (Validation), S. Rao (Test Eng)
+
+S. Rao: Characterized channel-B THD+N on three early A2 boards. It's consistently failing —
+0.011% to 0.012% versus the 0.008% target. Channel A passes cleanly. So it's a channel-B
+specific issue, repeatable across units.
+
+M. Chen: That makes it real, not a one-board fluke. It tracks with output level, which points
+at a coupling path rather than the codec core. I'm opening VP-003 to root-cause it. This is now
+the gating risk for the validation gate.
+
+S. Rao: Power, clocking, and interface remain green on A2. Audio is the only red suite.
+
+M. Chen: Action: I'll own root cause on VP-003, targeting end of next week. We should also
+refresh the coverage matrix for the gate.
+
+Decision: channel-B THD is a confirmed, repeatable failure; VP-003 opened; audio is the
+validation gating item going into EVT.

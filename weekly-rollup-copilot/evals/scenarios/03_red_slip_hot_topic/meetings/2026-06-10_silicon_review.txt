@@ -1,0 +1,10 @@
+Silicon Review — 2026-06-10
+Attendees: S. Lead (Silicon), V. Lead (Validation)
+
+S. Lead: A2 debug is going, but the ATE production test program is still the blocker for EVT.
+EVT build realistically moves to mid-July. I own getting a firm ATE readiness date.
+
+V. Lead: The audio THD failure on channel B is still open — it's the gating risk for the
+validation gate. Root cause isn't done.
+
+S. Lead: Right, the ATE program and the audio THD are the two issues that decide EVT.

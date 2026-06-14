@@ -1,0 +1,24 @@
+Program Staff — 2026-06-12
+Attendees: PM, A. Patel, M. Chen, J. Lee, R. Diaz
+
+PM: Let's set the EVT picture for leadership. Anil, silicon?
+
+A. Patel: A2 debug is going well, but the ATE production test program is the gating item for
+EVT — the load board is the holdup. Realistically EVT build moves about two weeks, to mid-July.
+
+PM: So EVT slips to July 14. Validation?
+
+M. Chen: Audio THD on channel B is the open risk — three weeks running. Power, clocking,
+interface all pass. Root cause isn't done, so the validation gate moves to July 25.
+
+R. Diaz: Supply is mostly green; substrate PO placed. The watch item is the crystal at a
+16-week lead. I'll get a second-source quote.
+
+J. Lee: Firmware is in good shape — driver stack stable, alpha on track for the 20th.
+
+PM: Decision: proceed toward EVT carrying the audio THD as a documented waiver candidate,
+conditional on Validation closing root cause first. Anil, I need a firm ATE readiness date to
+commit the EVT build date.
+
+PM: Hot topics for leadership are the ATE program readiness and the channel-B audio THD —
+those two decide EVT.

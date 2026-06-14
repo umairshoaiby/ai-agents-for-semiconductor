@@ -1,0 +1,10 @@
+{
+  "name": "red_slip_hot_topic",
+  "note": "Two red workstreams (blocker + big slip), a stale workstream, and an orphan action. Audio THD recurs across both meetings.",
+  "expected_overall_rag": "red",
+  "expected_confidence": "low",
+  "expected_workstream_rag": {"Silicon": "red", "Validation": "red", "Supply": "amber"},
+  "expected_hygiene_substrings": ["orphan", "over 7 days"],
+  "expected_action_recall": ["ATE", "THD"],
+  "expected_hot_topic_top": "THD"
+}

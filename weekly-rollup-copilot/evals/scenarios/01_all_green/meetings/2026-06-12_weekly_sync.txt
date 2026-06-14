@@ -1,0 +1,12 @@
+Weekly Program Sync — 2026-06-12
+Attendees: O. One (Alpha), O. Two (Beta), O. Three (Gamma)
+
+O. One: Alpha bring-up is complete and characterization is underway — results look clean, no
+surprises. I'll wrap up the characterization report by next week.
+
+O. Two: Beta firmware is stable and we're on track for the alpha milestone. Prepping the
+review deck now.
+
+O. Three: Gamma validation suites are all passing. Nothing red on my side.
+
+PM: Good week, everything green. No blockers raised.

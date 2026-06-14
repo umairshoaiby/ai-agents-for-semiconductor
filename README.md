@@ -30,10 +30,12 @@ shipped chips, and built to run from a clean clone.
 | # | Example | What it does | AI techniques |
 |---|---------|--------------|---------------|
 | 1 | **[post-silicon-validation-copilot](./post-silicon-validation-copilot/)** ✅ | Reconciles a validation plan against a Jira board into a gate-review readout — coverage, calibrated confidence, tracking-hygiene flags, and a prioritized action list. Ships a **clickable UI** and a **trustworthy-AI evaluation harness** | Deterministic-core / LLM-judgment split, structured output, calibrated confidence, evaluation harness, rule-based fallback |
-| 2 | **datasheet-extraction-agent** | Reads a mixed-signal datasheet (PDF) and extracts specs into clean structured JSON | RAG, structured output, schema validation |
-| 3 | **npi-gate-review-copilot** | Checks a project against phase-gate criteria and flags missing readiness items | Tool calling, checklist reasoning |
+| 2 | **[weekly-rollup-copilot](./weekly-rollup-copilot/)** ✅ | Turns the week's meeting notes + schedule + action log into an exec-ready draft program update — what's working/not, hot topics, decisions, aged actions, asks. Ships a **clickable UI**, **Markdown export**, and an **evaluation harness** | Multi-agent extraction over unstructured text, grounded structured output, deterministic-core / LLM-writer split, calibrated confidence, evaluation harness |
+| 3 | **[program-intelligence-copilot](./program-intelligence-copilot/)** ✅ | Reasons over the program's **entire history** (months of meetings, prior updates, action history, specs, Jira). Hybrid **RAG** + a **multi-agent graph** (planner → parallel analysts → risk agent → **adversarial critic** → synthesizer) produce a cited, trend-aware weekly update; plus an **"Ask the Copilot"** Q&A UI | Hybrid retrieval (BM25 + vectors, RRF), tool-use agents over a deterministic core, multi-agent orchestration, adversarial self-verification, evaluation harness |
+| 4 | **datasheet-extraction-agent** | Reads a mixed-signal datasheet (PDF) and extracts specs into clean structured JSON | RAG, structured output, schema validation |
+| 5 | **npi-gate-review-copilot** | Checks a project against phase-gate criteria and flags missing readiness items | Tool calling, checklist reasoning |
 
-> _Example 1 is built and runnable today. Examples 2–3 are next in the build sprint; see the roadmap below._
+> _Examples 1–3 are built and runnable today. Examples 4–5 are next in the build sprint; see the roadmap below._
 
 ## Roadmap
 

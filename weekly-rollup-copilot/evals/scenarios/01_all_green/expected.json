@@ -1,0 +1,10 @@
+{
+  "name": "all_green",
+  "note": "Clean week: every workstream fresh, no blockers, no slips, all actions owned.",
+  "expected_overall_rag": "green",
+  "expected_confidence": "high",
+  "expected_workstream_rag": {"Alpha": "green", "Beta": "green", "Gamma": "green"},
+  "expected_hygiene_substrings": [],
+  "expected_action_recall": ["characterization report"],
+  "expected_hot_topic_top": null
+}

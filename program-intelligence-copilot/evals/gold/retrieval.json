@@ -1,0 +1,32 @@
+[
+  {
+    "question": "What is the history of the channel-B audio THD issue?",
+    "expect_substring": "0.012%",
+    "expect_source_type": "meeting"
+  },
+  {
+    "question": "What is the THD+N target spec for the audio codec?",
+    "expect_substring": "0.008%"
+  },
+  {
+    "question": "Why is EVT blocked or slipping?",
+    "expect_substring": "ATE production test program"
+  },
+  {
+    "question": "When did the ATE program first come up as a risk?",
+    "expect_substring": "load board"
+  },
+  {
+    "question": "What were last week's overall program RAG status and hot topics?",
+    "expect_substring": "Overall: RED",
+    "expect_source_type": "weekly_update"
+  },
+  {
+    "question": "What is required to exit the EVT phase gate?",
+    "expect_substring": "documented waiver"
+  },
+  {
+    "question": "What is the status of VP-003?",
+    "expect_substring": "VP-003"
+  }
+]

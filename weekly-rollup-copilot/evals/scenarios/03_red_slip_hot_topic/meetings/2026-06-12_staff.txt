@@ -1,0 +1,15 @@
+Program Staff — 2026-06-12
+Attendees: PM, S. Lead, V. Lead, U. Lead
+
+PM: For the leadership update, the two things that decide EVT are the ATE production test
+program readiness and the audio THD failure on channel B. Both are still open.
+
+V. Lead: Confirmed — audio THD on channel B is the gating risk for the validation gate, and
+root cause is not done.
+
+S. Lead: And the ATE program is still blocked on the load board. EVT build moves to mid-July.
+
+U. Lead: Supply is mostly fine, but the long-lead crystal is a watch item.
+
+Decision: proceed toward EVT carrying the audio THD as a documented waiver candidate,
+conditional on closing the root cause first.

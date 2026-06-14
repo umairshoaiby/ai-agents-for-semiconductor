@@ -1,0 +1,5 @@
+workstream,owner,status_note,percent_complete,blockers,last_updated
+Silicon Bring-Up,A. Patel,A2 power-up clean; ATE program blocking EVT,60,ATE production test program not ready,2026-06-12
+Firmware,J. Lee,Driver stack stable on A2; power tuning next,75,,2026-06-12
+Validation,M. Chen,Audio THD failing on channel B; rest passing,40,VP-003 root cause open,2026-06-11
+Supply/Ops,R. Diaz,Substrate placed; long-lead crystal watch item,80,Long-lead crystal at 16-week quote,2026-06-12
