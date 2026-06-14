@@ -13,6 +13,12 @@ trustworthy, cited updates and answer questions dynamically.
 > with an extended eval harness (**12/12 offline, 14/14 with the live critic test**).
 > See [BUILD_PLAN.md](BUILD_PLAN.md), [CASE_STUDY.md](CASE_STUDY.md), [EVALUATION.md](EVALUATION.md).
 
+<p align="center">
+  <img src="assets/architecture.png" alt="The Trust-First AI Architecture: a deterministic Python core (hard-coded RAG/slip rules) and hybrid BM25+vector retrieval feed a trust boundary; the LLM narrates but never invents, an adversarial critic deletes any sentence not backed by cited evidence, and a human remains the accountable owner — 14/14 evaluation success" width="900">
+</p>
+
+<p align="center"><i><b>Narrate, never invent.</b> Status colors and schedule math are computed in Python (the deterministic core); hybrid retrieval grounds every claim in cited evidence; an adversarial critic deletes anything the sources don't support; the human stays the accountable owner.</i></p>
+
 ## Why it exists
 
 The honest progression: v2 reads one week directly *because it fits*. Real programs have
