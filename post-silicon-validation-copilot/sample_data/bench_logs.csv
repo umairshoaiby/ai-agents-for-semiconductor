@@ -1,0 +1,15 @@
+test_id,status,notes,date
+VP-001,pass,IDDQ within spec at -40/25/85C,2026-05-12
+VP-002,pass,Sequencing clean on 5 units,2026-05-12
+VP-003,fail,THD+N 0.012% vs 0.008% target on channel B,2026-05-13
+VP-004,pass,DR 112dB A-wtd,2026-05-13
+VP-005,pass,Crosstalk -98dB,2026-05-14
+VP-006,fail,PSRR 58dB vs 65dB target,2026-05-14
+VP-007,pass,PLL lock 180us,2026-05-15
+VP-008,skip,Jitter source not available on bench,2026-05-15
+VP-009,pass,I2C clean at 400kHz,2026-05-16
+VP-010,pass,I2S timing margin OK 1.71-1.98V,2026-05-16
+VP-012,pass,Functional at -40C,2026-05-19
+VP-013,pass,Functional at +85C,2026-05-19
+VP-017,fail,Bandgap trim fails to converge on 2 of 8 units,2026-05-20
+VP-019,pass,Bin distribution nominal,2026-05-21

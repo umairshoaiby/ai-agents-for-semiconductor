@@ -1,0 +1,21 @@
+test_id,category,description,priority
+VP-001,Power,Quiescent current (IDDQ) across temp corners,critical
+VP-002,Power,Power-up/power-down sequencing,critical
+VP-003,Audio,THD+N at 1kHz full-scale output,critical
+VP-004,Audio,Dynamic range A-weighted,high
+VP-005,Audio,Channel-to-channel crosstalk,high
+VP-006,Audio,PSRR at 217Hz,high
+VP-007,Clocking,PLL lock time from cold start,critical
+VP-008,Clocking,Reference clock jitter tolerance,high
+VP-009,Interface,I2C register read/write at 400kHz,critical
+VP-010,Interface,I2S timing across VDDIO range,high
+VP-011,Interface,SPI mode 0-3 functional sweep,medium
+VP-012,Temp,Functional operation at -40C,critical
+VP-013,Temp,Functional operation at +85C,critical
+VP-014,Temp,Functional operation at +125C,high
+VP-015,ESD,HBM 2kV pin survey,high
+VP-016,ESD,CDM 500V corner pins,medium
+VP-017,Trim,Bandgap reference trim convergence,critical
+VP-018,Trim,Oscillator frequency trim range,medium
+VP-019,Yield,Wafer-level parametric bin distribution,high
+VP-020,Yield,Package-level final test correlation,medium

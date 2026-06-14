@@ -1,0 +1,10 @@
+{
+  "name": "critical_failures",
+  "note": "Critical audio test VP-302 fails; ESD test VP-304 is untracked, VP-306 is closed with no result (ambiguous), and VP-399 is an orphan ticket. The tool must call NO-GO with LOW confidence.",
+  "expected_gate": "no-go",
+  "expected_confidence": "low",
+  "expected_critical": ["VP-302"],
+  "expected_untracked": ["VP-304"],
+  "expected_ambiguous": ["VP-306"],
+  "expected_orphans": ["VP-399"]
+}

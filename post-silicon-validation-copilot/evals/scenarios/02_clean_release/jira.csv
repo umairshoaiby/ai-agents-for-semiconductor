@@ -1,0 +1,6 @@
+Issue Type,Issue key,Summary,Status,Priority,Resolution,Component/s,Custom field (Test ID),Custom field (Test Result),Updated
+Test,VAL-401,Quiescent current IDDQ across temp,Done,High,Done,Power,VP-401,Pass,2026-06-12
+Test,VAL-402,THD+N at 1kHz full scale output,Done,Highest,Done,Audio,VP-402,Pass,2026-06-12
+Test,VAL-403,PLL lock time from cold start,Done,High,Done,Clocking,VP-403,Pass,2026-06-12
+Test,VAL-404,Functional operation at -40C,Done,High,Done,Temp,VP-404,Pass,2026-06-12
+Test,VAL-405,I2C register read write at 400kHz,Done,High,Done,Interface,VP-405,Pass,2026-06-12

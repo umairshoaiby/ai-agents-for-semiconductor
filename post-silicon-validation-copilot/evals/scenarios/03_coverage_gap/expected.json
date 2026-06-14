@@ -1,0 +1,10 @@
+{
+  "name": "coverage_gap",
+  "note": "No failures, but VP-505 is still in-flight and stale, leaving coverage at 80%. The tool must call CONDITIONAL-GO with MEDIUM confidence (incomplete, not broken).",
+  "expected_gate": "conditional-go",
+  "expected_confidence": "medium",
+  "expected_critical": [],
+  "expected_untracked": [],
+  "expected_ambiguous": [],
+  "expected_orphans": []
+}

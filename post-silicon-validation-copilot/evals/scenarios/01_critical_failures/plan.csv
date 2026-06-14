@@ -1,0 +1,7 @@
+test_id,category,description,priority
+VP-301,Power,Quiescent current (IDDQ) across temp,critical
+VP-302,Audio,THD+N at 1kHz full-scale output,critical
+VP-303,Audio,Dynamic range A-weighted,high
+VP-304,ESD,HBM 2kV pin survey,high
+VP-305,Temp,Functional operation at +125C,high
+VP-306,Interface,SPI mode 0-3 functional sweep,medium

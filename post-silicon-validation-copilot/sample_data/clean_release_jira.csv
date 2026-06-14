@@ -1,0 +1,21 @@
+Issue Type,Issue key,Summary,Status,Priority,Resolution,Component/s,Custom field (Test ID),Custom field (Test Result),Updated
+Test,VAL-201,Quiescent current IDDQ across temp,Done,High,Done,Power,VP-001,Fail,6/10/2026
+Test,VAL-202,Power up power down sequencing,Done,High,Done,Power,VP-002,Pass,6/10/2026
+Test,VAL-203,THD+N at 1kHz full scale output,Done,Highest,Done,Audio,VP-003,Pass,6/11/2026
+Test,VAL-204,Dynamic range A-weighted,Done,High,Done,Audio,VP-004,Pass,6/11/2026
+Test,VAL-205,Channel to channel crosstalk,Done,Medium,Done,Audio,VP-005,Pass,6/11/2026
+Test,VAL-206,PSRR at 217Hz,Done,High,Done,Audio,VP-006,Pass,6/11/2026
+Test,VAL-207,PLL lock time from cold start,Done,Highest,Done,Clocking,VP-007,Pass,6/12/2026
+Test,VAL-208,Reference clock jitter tolerance,Done,High,Done,Clocking,VP-008,Pass,6/12/2026
+Test,VAL-209,I2C register read write at 400kHz,Done,High,Done,Interface,VP-009,Pass,6/9/2026
+Test,VAL-210,I2S timing across VDDIO range,Done,High,Done,Interface,VP-010,Pass,6/9/2026
+Test,VAL-211,SPI mode 0-3 functional sweep,Done,Medium,Done,Interface,VP-011,Pass,6/9/2026
+Test,VAL-212,Functional operation at -40C,Done,Highest,Done,Temp,VP-012,Pass,6/12/2026
+Test,VAL-213,Functional operation at +85C,Done,Highest,Done,Temp,VP-013,Fail,6/12/2026
+Test,VAL-214,Functional operation at +125C,Done,High,Done,Temp,VP-014,Pass,6/12/2026
+Test,VAL-215,HBM 2kV pin survey,Done,High,Done,ESD,VP-015,Pass,6/13/2026
+Test,VAL-216,CDM 500V corner pins,Done,Medium,Done,ESD,VP-016,Pass,6/13/2026
+Test,VAL-217,Bandgap reference trim convergence,Done,Highest,Done,Trim,VP-017,Pass,6/13/2026
+Test,VAL-218,Oscillator frequency trim range,Done,Medium,Done,Trim,VP-018,Pass,6/13/2026
+Test,VAL-219,Wafer level parametric bin distribution,Done,High,Done,Yield,VP-019,Pass,6/13/2026
+Test,VAL-220,Package level final test correlation,Done,Medium,Done,Yield,VP-020,Pass,6/13/2026

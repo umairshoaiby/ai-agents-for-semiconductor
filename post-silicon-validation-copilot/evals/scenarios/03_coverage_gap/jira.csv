@@ -1,0 +1,6 @@
+Issue Type,Issue key,Summary,Status,Priority,Resolution,Component/s,Custom field (Test ID),Custom field (Test Result),Updated
+Test,VAL-501,Quiescent current IDDQ across temp,Done,High,Done,Power,VP-501,Pass,2026-06-12
+Test,VAL-502,THD+N at 1kHz full scale output,Done,High,Done,Audio,VP-502,Pass,2026-06-12
+Test,VAL-503,PLL lock time from cold start,Done,High,Done,Clocking,VP-503,Pass,2026-06-12
+Test,VAL-504,Functional operation at -40C,Done,High,Done,Temp,VP-504,Pass,2026-06-12
+Test,VAL-505,SPI mode 0-3 functional sweep,In Progress,Medium,,Interface,VP-505,,2026-05-01

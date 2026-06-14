@@ -1,0 +1,10 @@
+{
+  "name": "clean_release",
+  "note": "Every planned test passed and is tracked with a recent result. The tool must call GO with HIGH confidence and no hygiene flags.",
+  "expected_gate": "go",
+  "expected_confidence": "high",
+  "expected_critical": [],
+  "expected_untracked": [],
+  "expected_ambiguous": [],
+  "expected_orphans": []
+}

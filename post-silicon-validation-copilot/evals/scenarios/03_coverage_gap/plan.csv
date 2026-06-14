@@ -1,0 +1,6 @@
+test_id,category,description,priority
+VP-501,Power,Quiescent current (IDDQ) across temp,critical
+VP-502,Audio,THD+N at 1kHz full-scale output,high
+VP-503,Clocking,PLL lock time from cold start,high
+VP-504,Temp,Functional operation at -40C,high
+VP-505,Interface,SPI mode 0-3 functional sweep,medium

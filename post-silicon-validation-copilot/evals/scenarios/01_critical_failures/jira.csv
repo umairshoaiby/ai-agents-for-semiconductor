@@ -1,0 +1,7 @@
+Issue Type,Issue key,Summary,Status,Priority,Resolution,Component/s,Custom field (Test ID),Custom field (Test Result),Updated
+Test,VAL-301,Quiescent current IDDQ across temp,Done,High,Done,Power,VP-301,Pass,2026-06-10
+Test,VAL-302,THD+N at 1kHz full scale output,Done,Highest,Done,Audio,VP-302,Fail,2026-06-10
+Test,VAL-303,Dynamic range A-weighted,Done,High,Done,Audio,VP-303,Pass,2026-06-10
+Test,VAL-305,Functional operation at +125C,In Progress,High,,Temp,VP-305,,2026-06-10
+Test,VAL-306,SPI mode 0-3 functional sweep,Done,Medium,Done,Interface,VP-306,,2026-06-09
+Test,VAL-309,Exploratory BT coexistence audio check,Done,Low,Done,Audio,VP-399,Pass,2026-06-09
